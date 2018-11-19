@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder | Survey</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm">
+            <form>
+                <h2>Survey Questions</h2>
+                <hr>
+                <h4>About You</h4>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name (required)</label>
+                    <input type="input" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Link to Photo (required)</label>
+                    <input type="link" class="form-control" id="exampleFormControlInput1" placeholder="linkToPhoto.com">
+                </div>
+                <hr>
+
+                <h3>Question 1</h3>
+                <h5>You usually follow your heart.</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">select an option | </label>
+                    <select class="chosen-select" id="q1" style=>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 2</h3>
+                <h5>You have a really great relationship with your parents.</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">select an option | </label>
+                    <select class="chosen-select" id="q2">
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 3</h3>
+                <h5>You would change your past in a heart beat.</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">select an option | </label>
+                    <select class="chosen-select" id="q3">
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 4</h3>
+                <h5>You usually avoid dangerous situations.</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">select an option | </label>
+                    <select class="chosen-select" id="q4">
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 5</h3>
+                <h5>You consider yourself an introvert.</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">select an option | </label>
+                    <select class="chosen-select" id="q5">
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 6</h3>
+                <h5>You generally hold grudges.</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">select an option | </label>
+                    <select class="chosen-select" id="q6">
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 7</h3>
+                <h5>You generally trust others fairly easy.</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">select an option | </label>
+                    <select class="chosen-select" id="q7">
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 8</h3>
+                <h5>You prefer to be with smaller groups of people.</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">select an option | </label>
+                    <select class="chosen-select" id="q8">
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 9</h3>
+                <h5>You believe in a higher power.</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">select an option | </label>
+                    <select class="chosen-select" id="q9">
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 10</h3>
+                <h5>You beleive your political beliefs are the one and only.</h5>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">select an option | </label>
+                    <select class="chosen-select" id="q10">
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <hr>
+        </div>
+        </div>
+    </div>
+
+<footer class="footer">
+    <div class="container">
+        <p><a href="/api/survey">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+    </div>
+</footer>
+
+<script>
+//
+</script>
+</body>
+</html>
