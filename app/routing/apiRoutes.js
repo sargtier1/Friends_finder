@@ -10,8 +10,8 @@ module.exports= function(app) {
     });
     app.post("/api/friends", (req, res) => {
         var bestMatch= {
-            name = "",
-            photo = "",
+            name : "",
+            photo : "",
             friendDifference: Infinity 
         };
         
